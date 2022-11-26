@@ -151,6 +151,17 @@ header button {
 
 }
 
+.accordion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.question img.img_accordion {
+    width: 10px;
+    height: 6px;
+}
 
 /* header hecho */
 /* primera section */
@@ -513,7 +524,7 @@ header button {
 /* empieza la cuarta section  */
 
 .section-four {
-   
+
     height: 621px;
     width: 1280px;
     padding: 20px 320px;
@@ -522,7 +533,8 @@ header button {
 }
 
 /* aqui se ordena el texto */
-.question h2, h4 {
+.question h2,
+h4 {
 
     display: flex;
     flex-direction: column;
@@ -531,22 +543,22 @@ header button {
     padding: 24px;
     width: 668px;
 
-   
+
 }
 
 .question h2 {
-    
+
     font-weight: 500;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
     color: #FFFFFF;
-   
+
 
 
 }
 
-.question1>div{
+.question1>div {
 
     display: flex;
     flex-direction: column;
@@ -558,7 +570,7 @@ header button {
     background-color: #F7F5F3;
     border-radius: 10px;
     border-radius: 10px;
-   margin-top: 16px;
+    margin-top: 16px;
 
 }
 
@@ -571,10 +583,10 @@ header button {
 
 }
 
-.line{
+.line {
     width: 100%;
     height: 16px;
-    border-bottom:  1px solid #E3DED7;
+    border-bottom: 1px solid #E3DED7;
     margin-bottom: 5px;
 }
 
@@ -605,17 +617,119 @@ header button {
     height: 18px;
 }
 
-.resolvequestions{
+.resolvequestions {
 
-    display:flex;
+    display: flex;
     justify-content: center;
-    gap:19px;
-    
+    gap: 19px;
+    padding-top: 24px;
 }
 
-h5{
+h5 {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 600;
     text-decoration: underline;
 }
+
+.section-five {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    background: #F7F5F3;
+    justify-content: space-between;
+}
+
+.img_coffeshop img {
+    width: 588px;
+    height: 390px;
+}
+
+.coffeshop_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 652px;
+    padding: 40px;
+}
+
+.img_coffeshop {
+    padding: 40px;
+}
+
+.section-five a {
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.coffeshop_info h2 {
+
+    color: #2A5B45;
+}
+
+/* section-six init here*/
+
+.section-six {
+
+    display: flex;
+    flex-direction: row;
+    height: 552px;
+    background: #E3DED7;
+}
+
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    width: 612px;
+}
+
+.div_form {
+    background: #fff;
+    width: 588px;
+}
+
+.div_form form {
+    padding: 52px 51px 0px 67px;
+}
+
+.div_form label {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #374151;
+    display: block;
+    padding-bottom: 4px;
+}
+
+.div_form input {
+    width: 100%;
+    height: 34px;
+    padding-top: 4px;
+}
+
+.div_form textarea {
+    width: 100%;
+    height: 152px;
+}
+
+.div_form input[type=button] {
+    width: 50px;
+    background: #2A5B45;
+    border-radius: 4px;
+}
+
+.contact_info h2 {
+
+    font-weight: 600;
+    font-size: 18px;
+
+    Line height: 24px;
+}
+
