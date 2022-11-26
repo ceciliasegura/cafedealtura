@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    width: 1280px;
+    font-family: 'Outfit';
+
+}
+
+
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    gap: 16;
+    width: 100%;
+    height: 64px;
+    background: #2B2A2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    gap: 62px;
+
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 23.4628px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+
+
+.container p {
+
+    font-family: 'Outfit';
+    line-height: 16px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+
+.img_cup {
+
+    width: 20.29px;
+    height: 24.95px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 62.28px;
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.container2 {
+
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px
+}
+
+
+.img_tel {
+
+    width: 18px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.container2 p {
+
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 16px;
+    gap: 11px;
+}
+
+header button {
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 12px 24px;
+    gap: 24px;
+    width: 130px;
+    height: 40px;
+    background: #515051;
+    border-radius: 4px;
+    border: none;
+    margin-left: 12px;
+
+}
+
+
+.logocesta {
+
+    width: 24px;
+    height: 24px;
+
+}
+
+
+/* header hecho */
+/* primera section */
+
+
+.section-one {
+
+    width: 1280px;
+    height: 486px;
+    background-color: rgba(227, 222, 215, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 40px;
+    padding-top: 15px;
+
+}
+
+.container3 {
+
+    width: 1200px;
+    height: 390px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-dad {
+
+    width: 588px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 20px 20px 0;
+    gap: 16px;
+
+}
+
+.container-child {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 10px 10px 10px 0;
+    gap: 40px
+}
+
+.container-child h2 {
+
+    width: 588px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    line-height: 24px;
+    color: #2A5B45;
+    text-shadow: 2px 2px 2px #b5b9b9;
+
+
+}
+
+.container-child h1 {
+
+    display: flex;
+    padding: 10px 10px 10px 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #000;
+    text-shadow: 2px 2px 2px #a0a3a3;
+
+}
+
+.container-child p {
+
+    width: 588px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px #a0a3a3;
+
+}
+
+
+
+.button-section1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+
+
+/* bonton negro descubrir origenes */
+.btn1 {
+
+    padding: 12px 24px;
+    font-size: 12px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    background-color: #000000;
+
+}
+
+/* bonton verde comprar cafe */
+
+.btn2 {
+
+    padding: 12px 24px;
+    font-size: 12px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    background-color: #2A5B45;
+
+}
+
+
+
+
+.granocafe {
+    width: 588px;
+    height: 390px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+/* termina la primera section */
+
+/* empieza la segunda section */
+
+.section-two {
+
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    height: 380px;
+    background-image: url(assets/fondo.jpeg);
+    background-size: cover;
+
+}
+
+.section-two h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    font-size: 24px;
+    height: 28px;
+    font-weight: 500px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+/* es el padre de .card */
+.container4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 142px 48px;
+    gap: 16px;
+    width: 1280px;
+    height: 380px;
+
+
+}
+
+/* empiezan las card */
+.container4 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 316px;
+    height: 232px;
+    padding: 24px;
+    background-color: #F7F5F3;
+    border-radius: 5px;
+}
+
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+.card img {
+
+    width: 50px;
+    height: 50;
+    padding: 12px;
+    background-color: #2A5B45;
+    border-radius: 15px;
+}
+
+/* titulo de la card */
+.card h2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
+
+}
+
+/* texto de la card */
+.card p {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 14px;
+
+}
+
+/* iconos verdes */
+.img-card img {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+}
+
+/* termina la segunda section */
+/* empieza la tercera section */
+
+.section-three {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px 44px;
+    gap: 40px;
+    height: 603px;
+
+}
+
+
+.cafes {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px
+}
+
+.cafes>div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    box-shadow: 1px 4px #f9f7f9;
+    width: 282px;
+    gap: 24px;
+    padding: 24px 0px;
+
+
+}
+
+
+.section-three h3 {
+
+    width: 120px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #2A5B45;
+    text-shadow: 2px 2px 2px rgb(181, 185, 185);
+
+}
+
+
+
+.cafes h4 {
+
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.button-section3 {
+
+    width: 60px;
+    height: 32px;
+    padding: 8px 8px;
+    font-size: 14px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(42, 91, 69, 0.7);
+}
+
+/* hover cards */
+.cafes div:hover {
+
+    background-color: rgb(242, 241, 241);
+
+}
+
+/* hover boton añadir */
+.button-section3:hover {
+
+    background-color: #2A5B45;
+}
+
+
+.section-three div {
+
+    display: flex;
+    gap: 19px;
+}
+
+/* enlace  ver todos*/
+.section-three a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(181, 185, 185);
+
+}
+
+/* termina la tercera section */
+
+/* empieza la cuarta section  */
+
+.section-four {
+   
+    height: 621px;
+    width: 1280px;
+    padding: 20px 320px;
+    background-color: #2A5B45;
+    margin-top: 40px;
+}
+
+/* aqui se ordena el texto */
+.question h2, h4 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 668px;
+
+   
+}
+
+.question h2 {
+    
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+   
+
+
+}
+
+.question1>div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    /* gap: 16px; */
+    width: 668px;
+    background-color: #F7F5F3;
+    border-radius: 10px;
+    border-radius: 10px;
+   margin-top: 16px;
+
+}
+
+.question1 h3 {
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2B2A2B;
+
+}
+
+.line{
+    width: 100%;
+    height: 16px;
+    border-bottom:  1px solid #E3DED7;
+    margin-bottom: 5px;
+}
+
+.question1 p {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 12px 0px;
+}
+
+
+
+
+/* enlace resolvemos tus dudas*/
+.question h4 {
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.question img {
+
+    width: 18px;
+    height: 18px;
+}
+
+.resolvequestions{
+
+    display:flex;
+    justify-content: center;
+    gap:19px;
+    
+}
+
+h5{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
