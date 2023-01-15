@@ -4,7 +4,7 @@ const shoppingBagStore = JSON.parse(localStorage.getItem("bag"));
 const shoppingBag = shoppingBagStore === null ? [] : shoppingBagStore;
 const totalNumberBagP = document.querySelector(".totalNumberBag");
 
-var totalNumberBag = 0;
+let totalNumberBag = 0;
 coffes.forEach((cafe3) => {
     cafe3.children[3].addEventListener("click", () => {
         shopingBagItemFound = shoppingBag.filter(i => i.name === cafe3.children[1].innerText);
