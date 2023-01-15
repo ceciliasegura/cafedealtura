@@ -7,8 +7,8 @@
 
 body {
 
-    width: 1280px;
- font-family: 'outfit';
+    width: auto;
+    font-family: 'outfit';
 
 
 }
@@ -146,18 +146,21 @@ header button {
 
 
 .logocesta {
-
     width: 24px;
     height: 24px;
-
 }
 
 .accordion {
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    justify-content: space-between;
 }
+
+.accordionh3img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .question img.img_accordion {
     width: 10px;
@@ -169,7 +172,6 @@ header button {
 
 .section_one {
 
-    width: 1280px;
     height: 486px;
     background-color: white;
     display: flex;
@@ -183,7 +185,6 @@ header button {
 
 .container3 {
 
-    width: 1200px;
     height: 390px;
     display: flex;
     flex-direction: row;
@@ -332,7 +333,6 @@ header button {
     align-items: center;
     padding: 50px 142px 48px;
     gap: 16px;
-    width: 1280px;
     height: 380px;
 
 
@@ -419,7 +419,7 @@ header button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 50px 44px;
+    padding: 2rem;
     gap: 40px;
     height: 603px;
 
@@ -429,12 +429,14 @@ header button {
 .cafes {
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 20px
+    margin: 0 2rem;
+
 }
 
-.cafes>div {
+.cafe3 {
 
     display: flex;
     flex-direction: column;
@@ -442,11 +444,10 @@ header button {
     border: 1px solid #E3DED7;
     border-radius: 8px;
     box-shadow: 1px 4px #f9f7f9;
-    width: 282px;
-    gap: 24px;
     padding: 24px 0px;
-
-
+    margin-bottom: 1rem;
+    margin: 1rem;
+    flex-basis: 20%
 }
 
 
@@ -470,7 +471,7 @@ header button {
     font-size: 14px;
     font-weight: 600;
     text-align: center;
-    color:black;
+    color: black;
 }
 
 .button_section3 {
@@ -487,18 +488,18 @@ header button {
 }
 
 /* hover cards */
-.cafes :hover {
+.cafe3:hover {
 
     background-color: rgb(242, 241, 241);
 
 }
 
 /* hover boton añadir */
-.cafes>button:hover {
+.cafes .cafe3 button:hover {
 
     background-color: #2A5B45;
 
-    
+
 }
 
 
@@ -524,7 +525,6 @@ header button {
 .section_four {
 
     height: 621px;
-    width: 1280px;
     padding: 20px 320px;
     background-color: #2A5B45;
     margin-top: 40px;
@@ -555,7 +555,7 @@ header button {
     justify-content: center;
     align-items: flex-start;
     padding: 24px;
-    width: 668px;
+    width: 100%;
     border-radius: 10px;
     border-radius: 10px;
     margin-top: 16px;
@@ -680,7 +680,7 @@ h4 {
     display: flex;
     flex-direction: row;
     background: #E3DED7;
-
+    justify-content: space-between;
 }
 
 
@@ -863,119 +863,348 @@ h4 {
 
 /* section-six end here */
 /* section-seven start here */
-
-
-.section_seven div {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
+footer {
     background-color: #1F1815;
-  
-
-
+    color: white;
 }
 
-.logo_footer div {
-
+.section_seven {
     display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: flex-start;
-    gap: 16px;
-    padding: 28px 40px;
-
-
+    justify-content: space-between;
+    padding: 2rem;
 }
 
-tex cafe de altura
-.logo2 {
-
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 36px;
-    color: #FFFFFF;
-    width: 131px;
-    height: 34px;
-
-
+.help {
+    width: 50%;
 }
 
-/* enlaces */
-
-.help div {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap:16px;
-    border-radius: 4px;
+.help .footerContact {
     background-color: #515051;
-
-
-
+    padding: 12px 24px;
+    margin: 8px;
+    width: fit-content;
+    border-radius: 4px;
 }
 
-.help p {
-
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #FFFFFF;
-
-}
-
-
-.help a {
-
-    padding: 0px;
-    font-size: 15px;
-    color: #FFFFFF;
-    text-decoration: none;
- 
-   
-
-
-
-}
-
-/* elements center and left */
-.options {
-
+.footerOptions {
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-  
 }
 
-.options, .options2>p {
+.footerOptions .options {
 
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 600;
-    color: #FFFFFF;
+    width: 35%;
+}
+
+.footerOptions .options p {
+    margin: 1rem 0;
+
+}
+
+.footerOptions .options2 {
+    margin: 1rem;
+    width: 65%;
+}
+
+.footerOptions .options2 p {
+    margin: 1rem 0;
 
 }
 
 /* derechos */
 .section_seven2 {
-
+    color: #FFFFFF;
     background-color: #2B2A2B;
     text-align: center;
     padding: 12px 38px 12px 54px;
     height: 40px;
 }
 
-.section_seven2>p{
+.section_seven2 p {
 
     color: #FFFFFF;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
 
+}
+
+
+/* --------------------------------------------------------------CSS Shop--------------------------------------------------------------------------------------------- */
+
+.shop h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    margin: 3rem 0;
+    color: #2A5B45;
+}
+
+/* -----------------------------------------------CSS ShoppingBag------------------------------------------------ */
+
+.Basket h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.principal-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.mainContainer-bag {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px 32px 312px 54px
+}
+
+.productsshopping-Bag h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.addShoppingDetail {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.tittleBasket {
+    padding-bottom: 20px;
+}
+
+.addShoppingDetail .sumImg {
+    display: flex;
+}
+
+.addShoppingDetail .sumImg .imgDescription {
+    display: flex;
+
+}
+
+.sumadores {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espace {
+    padding-right: 100px;
+}
+
+
+.btnadd {
+    width: 24px;
+    height: 24px;
+    padding: 0.4rem 0.4rem;
+    border-radius: 50%;
+    background-color: rgba(42, 91, 69, 0.1);
+    margin: 0 0.5rem;
+    color: #2A5B45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tittleBasket p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+
+}
+
+.totalshopping-Bag {
+    width: 384px;
+    height: 280px;
+    background-color: #F7F5F3;
+}
+
+.p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+
+}
+
+.containerEnvioDetail .envioDetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.envioDetailOne,
+.envioDetailTwo {
+    display: flex;
+    gap: 15px;
+}
+
+.imgDescription p:first-child {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.imgDescription p:last-child {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.containerEnvioDetail p:first-child {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.containerEnvioDetail p:last-child {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+
+
+/********************JS*********************/
+.showContent {
+    display: none;
+}
+
+/********************JS*********************/
+.principal-mainContainer-bag {
+    width: 1089px;
+}
+
+.checkou-tBtn {
+
+    width: 140px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #2A5B45;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.checkou-tBtn:disabled {
+    background-color: #2a5b455e;
+}
+
+.btnContinueShopping {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.btnContinueShopping a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A5B45;
+    display: flex;
+    align-items: center;
+}
+
+.btnContinueShopping {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.totalshopping-Bag {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 10px;
+
+}
+
+.subtotal,
+.send,
+.total {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subtotal p:last-child {
+    font-weight: bold;
+}
+
+.send p:last-child {
+    font-weight: bold;
+}
+
+.total p:last-child {
+    font-weight: bold;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.iva {
+    display: flex;
+    justify-content: flex-end;
+    color: #515051;
+    font-size: 12px;
+    ;
+
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.totalNumberBag {
+    width: 24px;
+    height: 24px;
+    padding: 0.4rem 0.4rem;
+    border-radius: 50%;
+    background-color: rgba(247, 245, 243, 0.1);
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F7F5F3;
+    font-size: 13px;
 }

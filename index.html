@@ -22,7 +22,7 @@
             </div>
 
             <nav>
-                <a href="#">Tienda</a>
+                <a href="./shop.html">Tienda</a>
                 <a href="#">Suscripción</a>
                 <a href="#">Para empresas</a>
                 <a href="#">Sobre nosotros </a>
@@ -31,14 +31,15 @@
 
             <div class="container2">
                 <img src="assets/Icon (1).png" alt="" class="img_tel">
-                <p>+34 919490518</p>
+                <p><a href="tel:+34 919490518">+34 919490518</a></p>
                 <div>
                     <button>Iniciar sesión</button>
                 </div>
             </div>
-
-            <img src="assets/cestita.png" alt="" class="img_bag">
-
+            <div class="cart">
+                <a href="./shoppingBag.html"><img src="assets/cestita.png" alt="" class="img_bag"></a>
+                <p class="totalNumberBag">0</p>
+            </div>
         </header>
 
         <!--header end here-->
@@ -104,8 +105,6 @@
         <!--section-three start here -->
 
         <section class="section_three">
-
-
             <div>
                 <h3>Novedades</h3>
 
@@ -113,36 +112,34 @@
 
             <div class="cafes">
 
-                <div>
+                <div class="cafe3">
                     <img src="assets/cafeverde.png" alt="">
                     <h4>Costa Rica Tarrazú</h4>
-                    <p>9€</p>
+                    <p><span>9</span>€</p>
                     <button class="button_section3">Añadir</button>
                 </div>
-                <div>
+                <div class="cafe3">
                     <img src="assets/caferojo.png" alt="">
                     <h4>Colombia Los Naranjos</h4>
-                    <p>9€</p>
+                    <p><span>9</span>€</p>
                     <button class="button_section3">Añadir</button>
                 </div>
-                <div>
+                <div class="cafe3">
                     <img src="assets/cafeverdeclaro.png" alt="">
                     <h4>Laos Amanecer</h4>
-                    <p>9€</p>
+                    <p><span>9</span>€</p>
                     <button class="button_section3">Añadir</button>
                 </div>
-                <div>
+                <div class="cafe3">
                     <img src="assets/cafemorado.png" alt="">
                     <h4>Etiopia Yrgacheff</h4>
-                    <p>9€</p>
+                    <p><span>9</span>€</p>
                     <button class="button_section3">Añadir</button>
                 </div>
             </div>
 
-
-
             <div>
-                <a href="#">Ver todos</a>
+                <a href="./shop.html">Ver todos</a>
                 <img src="assets/flechanegra.png" alt="">
             </div>
 
@@ -161,47 +158,52 @@
                 </div>
 
                 <div class="question1">
-
                     <div>
                         <div class="accordion">
-                            <h3>¿Cómo hago el pedido?</h3>
-                            <img src="assets/Icon (4).png" class="img_accordion" alt="">
+                            <div class="accordionh3img">
+                                <h3>¿Cómo hago el pedido?</h3>
+                                <img src="assets/Icon (4).png" class="img_accordion" alt="">
+                            </div>
+                            <div class="containerLineS4">
+                                <div class="line"> </div>
+                                <p>Selecciona el café que desees probar y completa el proceso de compra. Si lo
+                                    prefieres, te preguntaremos cada cuánto quieres que te lo mandemos a casa y así
+                                    nunca te quedarás sin café</p>
+                            </div>
                         </div>
-                        <div class="line"> </div>
-                        <p>Selecciona el café que desees probar y
-                            completa el proceso de compra. Si
-                            lo prefieres, te preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te
-                            quedarás sin café</p>
                     </div>
 
                     <div>
                         <div class="accordion">
-                            <h3>¿Por qué los precios son tan bajos?</h3>
-                            <img src="assets/Icon (4).png" class="img_accordion" alt="">
+                            <div class="accordionh3img">
+                                <h3>¿Por qué los precios son tan bajos?</h3>
+                                <img src="assets/Icon (4).png" class="img_accordion" alt="">
+                            </div>
+                            <div class="containerLineS4">
+                                <div class="line"></div>
+                                <p>Viajamos constantemente para encontrar los mejores granos y a los agricultores más
+                                    exigentes. Si podemos ofrecerte estos precios es porque tratamos directamente con
+                                    los productores de café, sin intermediarios. Así obtenemos el mejor precio para ti y
+                                    la persona que está detrás de los granos de café recibe el mayor beneficio posible.
+                                </p>
+                            </div>
                         </div>
-                        <div class="line"></div>
-                        <p>Viajamos constantemente para encontrar los mejores granos y a los agricultores más exigentes.
-                            Si
-                            podemos ofrecerte estos precios es porque tratamos directamente con los productores de café,
-                            sin
-                            intermediarios. Así obtenemos el mejor precio para ti y la persona que está detrás de los
-                            granos
-                            de café recibe el mayor beneficio posible.</p>
                     </div>
 
                     <div>
-                        <div class="accordion">
+                        <div class="accordionh3img">
                             <h3>¿Es posible enviar enviar café a mi oficina?</h3>
                             <img src="assets/accordion_down.png" class="img_accordion" alt="">
                         </div>
-                    </div>
 
+                    </div>
                 </div>
 
                 <div class="resolvequestions">
                     <h4>Resolvemos tus dudas</h4>
                     <img src="assets/Icon (5).png" alt="">
                 </div>
+                <div class="line"></div>
 
             </div>
 
@@ -318,24 +320,21 @@
     <footer>
         <section class="section_seven">
 
+            <div class="help">
+                <p class="logo2">cafedealtura.com</p>
 
-            <div class="logo_footer">
-
-                <div class="help">
-                    <p class="logo2">cafedealtura.com</p>
-
-
-                    <p>Te ayudamos en</p>
-                    <div>
-                        <img src="assets/Icon (1).png" alt="">
-                        <a href="tel:+34 919490518 ">+34 919490518</a>
-                    </div>
-                    <div>
-                        <img src="assets/Icon (6).png" alt="">
-                        <a href="mailto:hola@cafedealtura.com">hola@cafedealtura.com</a>
-                    </div>
+                <p>Te ayudamos en</p>
+                <div class="footerContact">
+                    <img src="assets/Icon (1).png" alt="">
+                    <a href="tel:+34 919490518 ">+34 919490518</a>
                 </div>
+                <div class="footerContact">
+                    <img src="assets/Icon (6).png" alt="">
+                    <a href="mailto:hola@cafedealtura.com">hola@cafedealtura.com</a>
+                </div>
+            </div>
 
+            <div class="footerOptions">
                 <div class="options">
 
                     <p>Tienda</p>
@@ -351,18 +350,16 @@
                     <p>Términos y condiciones</p>
                 </div>
             </div>
-
         </section>
 
         <section class="section_seven2">
-            <p>
-                Todos los derechos reservados - Café de Altura SL - 2022
-            </p>
+            <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
         </section>
 
     </footer>
 
-<script src="main.js"></script>
+    <script src="main.js"></script>
+    <script src="shop.js"></script>
 </body>
 
 </html>

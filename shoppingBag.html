@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoppingBag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="./index.html">cafedealtura.com</a>
+            <!-- <p class="logo">cafedealtura.com</p> -->
+            <img src="assets/Vector copia.png" class="img_cup" alt="">
+        </div>
+
+        <div style="width: 500px;"></div>
+
+
+        <div class="container2">
+            <img src="assets/Icon (1).png" alt="" class="img_tel">
+            <p><a href="tel:+34 919490518">+34 919490518</a></p>
+            <div>
+                <button>Iniciar sesión</button>
+            </div>
+        </div>
+
+        <div class="cart">
+            <a href="./shoppingBag.html"><img src="assets/cestita.png" alt="" class="img_bag"></a>
+            <p class="totalNumberBag">0</p>
+        </div>
+
+    </header>
+
+    <!-- 
+    -------------------------------------end header----------------------------------------------------- -->
+    <!-- --------------------------------------shoppingBag------------------------------------------------------ -->
+
+    <div class="Basket">
+        <h2 class="totalBasket">Cesta (0)</h2>
+    </div>
+
+    <div class="principal-div">
+        <div class="mainContainer-bag">
+
+            <div class="productsshopping-Bag">
+                <h3>Productos</h3>
+                <div class="bagProducts">
+                </div>
+                <div>
+                    <div class="tittleBasket">
+                        <p> Seleccionar envío</p>
+                    </div>
+                    <div class="containerEnvioDetail">
+
+                        <div class="envioDetail">
+                            <div class="envioDetailOne">
+                                <input type="radio" name="envio" class="inputEnvio" value="0">
+                                <div>
+                                    <p>Envío 5-7 días</p>
+                                    <p>Opción estandar sin seguimiento</p>
+                                </div>
+                            </div>
+                            <p>Gratis</p>
+                        </div>
+
+                        <br>
+                        <hr class="hr">
+                        <br>
+
+                        <div class="envioDetail">
+                            <div class="envioDetailTwo">
+                                <input type="radio" name="envio" class="inputEnvio" value="9">
+                                <div class="espace">
+                                    <p>Envío urgente 24h</p>
+                                    <p>Recibe tú pedido en las siguientes 24h (para pedidos realizados antes de las
+                                        13:00). </p>
+                                </div>
+                            </div>
+                            <p>9,00 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="totalshopping-Bag">
+            <p class="p">Total del carrito</p>
+            <hr>
+            <div class="subtotal">
+                <p>SUBTOTAL</p>
+                <p class="costeSubtotal">18,00 €</p>
+            </div>
+
+            <div class="send">
+                <p>ENVÍO</p>
+                <p class="coste">Gratis</p>
+            </div>
+            <hr>
+
+            <div class="total">
+                <p>TOTAL</p>
+                <p class="costeTotal">18,00 €</p>
+            </div>
+            <p class="iva">Incluye 3,78€ de IVA</p>
+
+            <div class="btnContinueShopping">
+                <button class="checkou-tBtn" disabled="true">Ir a checkout</button>
+                <a href="./shop.html">Seguir comprando</a>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <section class="section_seven2">
+            <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
+        </section>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+    <script src="shoppingBag.js"></script>
+
+
+</body>
+
+</html>
